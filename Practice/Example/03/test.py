@@ -111,3 +111,26 @@ print(a)
 print(date)
 print(weather)
 print('')
+
+a = "20010331Rainy"
+year = a[:4]
+day = a[4:8]
+weather = a[8:]
+print(a)
+print(year)
+print(day)
+print(weather)
+print('')
+
+a = "Pithon"
+print(a)
+#a[1] = "y"
+#print(a)
+print(a[:1] + 'y' + a[2:])
+
+print("I eat %d apples." % 3)
+print("I eat %s apples." % "five")
+print('')
+
+number = 3
+print("I eat %d apples." % number)
